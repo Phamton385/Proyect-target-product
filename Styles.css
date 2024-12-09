@@ -1,0 +1,132 @@
+body {
+    margin:0px;
+    padding:0px;
+    
+}
+
+.conta{
+    width:100hv;
+    height:100vh;
+    background-color:#EA047E;
+}
+
+.tallas{
+    text-decoration:none;
+    margin:auto;
+    color:#FFF;
+}
+
+.tamaños{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:35%;
+    margin-top:3px;
+    padding:5px;
+    margin:auto;
+    gap:5px;
+}
+
+.precio{
+    margin-top:3px;
+    color:#FCE700;
+    font-size:15px;
+}
+
+li{
+    list-style:none;
+}
+
+.car{
+    margin:auto; 
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    position:absolute;
+    gap:5px;
+    border-radius:5%;
+    height:250px;
+    width:250px;
+    font-family: 'Oswald', sans-serif;
+    border:2px solid black;
+    letter-spacing:2px; background-image:url("https://img.freepik.com/fotos-premium/par-zapatos-color-aqua-menthe-fondo_219766-1006.jpg");
+    background-size:250px 250px;
+    background-color:rgba(93,233,255,0.4);
+    backdrop-filter:blur(1px);
+    text-align:center;
+    transition:1.5s all;
+    overflow:hidden;
+    box-shadow:15px 15px 15px 2px rgba(00,000,000,0.4);
+}
+
+.cabezera{
+    margin:50% 0;
+    transition:all 1s;
+    height:30px;
+}
+
+.glass{
+    background-color:rgba(255,255,255,0.3);
+    backdrop-filter:blur(8px);
+    width:100%;
+    height:500px;
+    border-radius:3%;
+    transition:0.5s;
+    margin-top:125px;
+    padding:0 0;
+}
+
+.mas{
+    font-size:40px;
+    transform:scale(5);
+    color:rgb(255, 255, 255,0.2);
+    background:transparent;
+    transition:0.5s;
+}
+
+.glass:hover .cabezera{
+    margin:0;
+    margin-top:90px;
+}  
+
+.glass:hover{
+    margin-top:0;
+}
+
+.glass:hover .mas{
+    margin-top:-140px;
+}
+
+img{
+    width:50px;
+    height:50px;
+}
+
+h1{
+    color:#00F5FF;
+}
+
+h2{
+    margin:4px 0;
+    color:#FF6D28;
+    font-size:22px;
+}
+
+.colors{
+    color:#111;
+    font-size:17px;
+}
+
+.buy{
+    margin-top:2px 0;
+    color:#fff;
+    border:none;
+    border-radius:4px;
+    background:#FF6D28;
+}
+
+
+
+
+
